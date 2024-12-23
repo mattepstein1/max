@@ -1,0 +1,13 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bg-image {
+    background-image: url('background.jpg'); /* Link to your full-page background image */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
