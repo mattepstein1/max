@@ -17,3 +17,7 @@ body, html {
     border-radius: 15px; /* Rounded corners */
     padding: 20px; /* Padding inside the container */
 }
+
+#timer {
+    text-align: center;
+}
