@@ -19,5 +19,10 @@ function countdown() {
     }
 }
 
+function playSound() {
+    const sound = document.getElementById('audioClip');
+    sound.play();
+}
+
 // Update the countdown every 1 second
 const interval = setInterval(countdown, 1000);
