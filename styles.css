@@ -18,6 +18,6 @@ body, html {
     padding: 20px; /* Padding inside the container */
 }
 
-#timer {
+.center-text {
     text-align: center;
 }
