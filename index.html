@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="styles.css">
     <title>Countdown Timer</title>
 </head>
-<body>
+<body onclick="playSound();"> <!-- Added onclick event listener for playing sound -->
     <div class="bg-image">
         <div class="d-flex justify-content-center align-items-center h-100">
-            <div class="text-container center-text"> <!-- Added class for styling -->
-                <h1 class="display-2 text-white mb-2 center-text">Countdown to Max's Arrival</h1>
-                <div id="timer" class="display-4 text-white center-text"></div>
+            <div class="text-container center-text"> <!-- Center-text class assumed to be defined in your CSS -->
+                <h1 class="display-2 text-white mb-2">Countdown to Max's Arrival</h1>
+                <div id="timer" class="display-4 text-white"></div>
             </div>
         </div>
     </div>
+
+    <!-- Audio element to hold the sound file -->
+    <audio id="audioClip" src="your-sound.mp3" preload="auto"></audio>
 
     <script src="script.js"></script>
 </body>
