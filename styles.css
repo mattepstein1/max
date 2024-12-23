@@ -6,8 +6,14 @@ body, html {
 }
 
 .bg-image {
-    background-image: url('max.png'); /* Link to your full-page background image */
+    background-image: url('background.jpg'); /* Link to your full-page background image */
     background-size: cover;
     background-position: center;
     height: 100%;
+}
+
+.text-container {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Padding inside the container */
 }
